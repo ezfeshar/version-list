@@ -1,0 +1,1 @@
+Del /S /F /Q %Windir%\Temp
