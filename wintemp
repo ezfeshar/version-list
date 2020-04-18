@@ -1,4 +1,5 @@
 @echo off
-cd /D %Windir%\Temp
+cd /D %Windir%
+cd /D Temp
 for /d %%D in (*) do rd /s /q "%%D"
 del /f /q *
