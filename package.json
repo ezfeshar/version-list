@@ -1,0 +1,20 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Triple Six",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "discord.js-commando": "^0.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
